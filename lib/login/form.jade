@@ -1,0 +1,6 @@
+extends ../views/layout1
+block content
+    form(action='login', method='post')
+        p: input(type='text', placeholder='Username')
+        p: input(type='password', placeholder='Password')
+        p: input(type='submit', value='Login')

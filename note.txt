@@ -1,0 +1,13 @@
+######GIT######
+#
+
+######HEROKU#####
+# heroku login
+# danghoaidanh.com@gmail.com/2times
+# git clone app
+# cd app
+# git remote add origin https://github.com/danghoaidanh/nofbaf.git
+# heroku create
+# git push heroku master
+# heroku ps:scale web=1
+# heroku open

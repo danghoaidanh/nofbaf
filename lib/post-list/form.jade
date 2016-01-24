@@ -1,0 +1,8 @@
+extends ../views/layout1
+block content
+    //p: !{posts}
+    - var post = JSON.parse(posts);
+    each ele, index in post
+        p  #{index} #{ele.name} : #{ele.message}
+    | This is <strong>the end </strong> of the conversation
+    | I think that I do want I love

@@ -1,0 +1,22 @@
+{
+  "name": "modular",
+  "version": "1.0.0",
+  "description": "modula",
+  "main": "app.js",
+  "scripts": {
+    "test": "moduler"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "nothing"
+  ],
+  "author": "dhdandha",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.13.3",
+    "jade": "*"
+  }
+}

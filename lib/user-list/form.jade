@@ -1,0 +1,8 @@
+extends ../views/layout1
+block content
+    p !{results}
+    ul
+        -var resultsx = JSON.parse(results)
+        each result in resultsx
+            li: p=result.value
+
