@@ -11,3 +11,9 @@
 # git push heroku master
 # heroku ps:scale web=1
 # heroku open
+#####GODADDY and HEROKU######
+# heroku domains:add www.nofbaf.com
+# heroku doamins:add nofbaf.com
+# DNS file on godaddy.com
+# Alias www frozen-eyrie-93257.herokuapp.com
+# HOST 50.63.202.1
