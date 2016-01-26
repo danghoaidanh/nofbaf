@@ -1,1 +1,28 @@
-h3 this is sign up page
+extends ../views/layout
+extends ../views/header
+block content
+        .row
+            .col-md-3
+            .col-md-6
+                form.signup-form(role="form", action="error")
+                    h3 Sign Up
+                    p Not Only Free But Also Freedom
+                    hr
+                    .form-group
+                        label(role="fist-name") First Name:
+                        input.form-control(id="first-name",placeholder="Required")
+                    .form-group
+                        label(role="last-name") Last Name:
+                        input.form-control(id="last-name",placeholder="Required")
+                    .form-group
+                        label(role="email-name") Email:
+                        input.form-control(id="email-name",placeholder="Required")
+                    .form-group
+                        label(role="password1") Password:
+                        input.form-control(id="password1",placeholder="Required")
+                    .form-group
+                        label(role="password2") Confirm Password:
+                        input.form-control(id="password2",placeholder="Required")
+                    p.warning-review-info *Review all info before submitting...
+                    button.btn.btn-success(type="submit") Submit
+            .col-md-3
