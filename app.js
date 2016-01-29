@@ -22,6 +22,6 @@ app.use(homein);
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.listen(process.env.PORT || 5000, function(){
-    console.log('The app is running on port 3002!!');
+    console.log('The app is running on port 5000!!');
 });
 

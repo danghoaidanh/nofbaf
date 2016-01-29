@@ -4,16 +4,16 @@ block content
     .row
         .col-md-3
         .col-md-6
-            form.signup-form(role="form", action="login", method="post")
+            form.signup-form(role="form", action="/login", method="post")
                 h3 Login
                 p Three in one
                 hr
                 .form-group
                     label(role="email-name") Email:
-                    input.form-control(id="email-name",placeholder="Required", type="text", name="username")
+                    input.form-control(id="email-name",placeholder="Required", type="text", name="username", required="true")
                 .form-group
                     label(role="password1") Password:
-                    input.form-control(id="password1",placeholder="Required", type="text", name="password")
+                    input.form-control(id="password1",placeholder="Required", type="password", name="password", required="true")
                 p.warning-review-info *Please review all info before submitting...?
                 button.btn.btn-success(type="submit") OKAY
         .col-md-3

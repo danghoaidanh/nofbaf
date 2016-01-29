@@ -1,1 +1,10 @@
 h3 you are logged in and at home page!!
+a(href="login") Logout
+p !{user}
+- var json =  JSON.stringify(user)
+    p !{json}
+p Username:
+p= user.username
+p Password:
+p= user.password
+p= user.displayName
