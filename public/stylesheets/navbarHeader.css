@@ -1,29 +1,99 @@
 .navbar-default {
-    background-color: #f4f8f9;
-    border-color: #b9dbe3;
+    /*background top header css from photoshop*/
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 141, 219);
+    background-image: -moz-linear-gradient( 90deg, rgb(45,140,218) 0%, rgb(110,183,242) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(45,140,218) 0%, rgb(110,183,242) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(45,140,218) 0%, rgb(110,183,242) 100%);
+    left: -2px;
+    top: -2px;
 }
+.main_header_back_gorund {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 141, 219);
+    background-image: -moz-linear-gradient( 90deg, rgb(45,140,218) 0%, rgb(110,183,242) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(45,140,218) 0%, rgb(110,183,242) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(45,140,218) 0%, rgb(110,183,242) 100%);
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    width: 1368px;
+    height: 75px;
+    z-index: 3;
+}
+.navbar-header > a > img {
+    /*magin-top of the nofbaf logo*/
+    margin-top: 7px;
+}
+.navbar-inner {
+    /*change height of the top header*/
+    min-height: 0px;
+}
+.navbar-brand, .navbar-nav li a {
+    /*change height of the top header*/
+    line-height: 75px;
+    height: 75px;
+    padding-top: 0;
+}
+
 .navbar-default .navbar-brand {
     color: #626869;
 }
+
+
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    /*change background logo picture when hover*/
     color: #0a24e7;
+    background-color: #408ecc;
 }
 .navbar-default .navbar-text {
     color: #626869;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #626869;
+    color: #ffffff;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #0a24e7;
+    /*change background of menu items when hovering*/
+    color: #ffffff;
+    background-color: #408ecc;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    /*do not use yet*/
     color: #0a24e7;
     background-color: #b9dbe3;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    /*do not use yet*/
     color: #0a24e7;
     background-color: #b9dbe3;
+}
+
+.btn-danger {
+    /*customer danger button of BT*/
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(170, 174, 177);
+    border-radius: 4px;
+    background-image: -moz-linear-gradient(90deg, rgb(215, 115, 29) 0%, rgb(231, 159, 98) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(215, 115, 29) 0%, rgb(231, 159, 98) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(215, 115, 29) 0%, rgb(231, 159, 98) 100%);
+    margin-top: 10px;
+    width: 121px;
+    height: 52px;
+}
+
+.btn-danger:hover {
+    /*customer danger button of BT*/
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(170, 174, 177);
+    border-radius: 4px;
+    background: #b86c2c;
+    width: 121px;
+    height: 52px;
 }
 .navbar-default .navbar-toggle {
     border-color: #b9dbe3;

@@ -11,13 +11,16 @@ block title
                   span.icon-bar
                   span.icon-bar
                .navbar-header
-                  a.navbar-brand(href="/") NOFBAF
+                  a.navbar-brand(href="/")
+                     img(src='/images/nofbaf-logo.png')
                .collapse.navbar-collapse
                   ul.nav.navbar-nav
-                     li.active: a(href="/") Home
+                     li: a(href="/") FRIENDS
+                     li: a(href="/") GROUPS
+                     li: a(href="/") COMPANIES
+                     li: a(href="/") PAGES
+                     li: a(href="/") MORE
                   ul.nav.navbar-nav.navbar-right
-                     li: a(href="signup")
-                        span.glyphicon.glyphicon-user  Sign Up
-                     li: a(href="login")
-                        span.glyphicon.glyphicon-log-in  Login
-
+                     li: a(href="login") You're GUEST
+                     li: form(action="signup" style="display: inline")
+                           button(class="btn btn-danger" ) Create Yours

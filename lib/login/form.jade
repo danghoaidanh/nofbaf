@@ -7,6 +7,17 @@ block content
             form.signup-form(role="form", action="/login", method="post")
                 h3 Login
                 p Three in one
+                if !message
+                    p
+                else
+                    if  message.warning === true
+                        .alert.alert-warning
+                            a(href="#" class="close" data-dismiss="alert" aria-label="close") &times;
+                            p= message.value
+                    else
+                        .alert.alert-success
+                            a(href="#" class="close" data-dismiss="alert" aria-label="close") &times;
+                            p= message.value
                 hr
                 .form-group
                     label(role="email-name") Email:

@@ -8,3 +8,11 @@
     color: red;
     font-style: italic;
 }
+.message-warning{
+    color: red;
+    font-style: italic;
+}
+.message-ok{
+    color: green;
+    font-style: italic;
+}

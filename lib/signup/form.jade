@@ -4,22 +4,23 @@ block content
         .row
             .col-md-3
             .col-md-6
-                form.signup-form(role="form", action="error")
+                form.signup-form(role="form", action="/signup" method="post")
                     h3 Sign Up
                     p Not Only Free But Also Freedom
                     hr
+                    p !{info}
                     .form-group
-                        label(role="fist-name") First Name:
-                        input.form-control(id="first-name",placeholder="Required")
+                        label(role="first-name") First Name:
+                        input.form-control(id="first-name",placeholder="Required", name="firstname")
                     .form-group
                         label(role="last-name") Last Name:
-                        input.form-control(id="last-name",placeholder="Required")
+                        input.form-control(id="last-name",placeholder="Required", name="lastname")
                     .form-group
-                        label(role="email-name") Email:
-                        input.form-control(id="email-name",placeholder="Required")
+                        label(role="username") Email:
+                        input.form-control(id="username",placeholder="Required" type='email' name="username")
                     .form-group
-                        label(role="password1") Password:
-                        input.form-control(id="password1",placeholder="Required")
+                        label(role="password") Password:
+                        input.form-control(id="password",placeholder="Required" name="password")
                     .form-group
                         label(role="password2") Confirm Password:
                         input.form-control(id="password2",placeholder="Required")
